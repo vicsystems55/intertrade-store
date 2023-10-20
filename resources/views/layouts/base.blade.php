@@ -5,7 +5,7 @@
 <!-- Mirrored from risingtheme.com/html/rokon-demo/rokon/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 02:11:35 GMT -->
 <head>
   <meta charset="utf-8">
-  <title>Plug & Play Ecommerce</title>
+  <title>InterTrade Ltd. - Estore</title>
   <meta name="description" content="Morden Simplistic, E-Store For Your Business">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
