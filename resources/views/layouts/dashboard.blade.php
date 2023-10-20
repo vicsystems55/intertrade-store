@@ -12,7 +12,7 @@
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="{{asset('dashboard')}}/assets/images/dashboard/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="{{asset('dashboard')}}/assets/images/dashboard/favicon.png" type="image/x-icon">
-    <title>Multikart - Premium Admin Template</title>
+    <title>InterTrade Ltd. - E-Store</title>
 
     <!-- Google font-->
     <link rel="stylesheet"
