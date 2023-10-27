@@ -20,9 +20,8 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="slider__content style2">
-                                            <h2 class="slider__content--maintitle h1">Natural For Materials <br>
-                                                Time watch.  </h2>
-                                            <p class="slider__content--desc style2 d-sm-2-none">There are many variations of passages of Lorem Ipsum availabled alteration in alley of type and scrambled it some.</p>
+                                            <h2 class="slider__content--maintitle h1">Discover Sustainable <br> Energy Solutions</h2>
+                                            <p class="slider__content--desc style2 d-sm-2-none">Explore our range of solar power systems and panels <br> for a greener, more cost-effective future.</p>
                                             <div class="slider__content--footer style2 d-flex align-items-center">
                                                 <a class="slider__content--btn primary__btn" href="shop.html">Shop Now</a>
                                                 <div class="bideo__play slider__play--bideo">
@@ -46,9 +45,9 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="slider__content style2">
-                                            <h2 class="slider__content--maintitle h1">Natural For Materials <br>
-                                                Time watch.  </h2>
-                                            <p class="slider__content--desc style2 d-sm-2-none">There are many variations of passages of Lorem Ipsum availabled alteration in alley of type and scrambled it some.</p>
+                                            <h2 class="slider__content--maintitle h1">Solar Panels <br>for Every Need
+                                                </h2>
+                                            <p class="slider__content--desc style2 d-sm-2-none">From residential to commercial, <br> we have solar panels that suit <br> your energy requirements and budget.</p>
                                             <div class="slider__content--footer style2 d-flex align-items-center">
                                                 <a class="slider__content--btn primary__btn" href="shop.html">Shop Now</a>
                                                 <div class="bideo__play slider__play--bideo">
@@ -72,9 +71,8 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="slider__content style2">
-                                            <h2 class="slider__content--maintitle h1">Natural For Materials <br>
-                                                Time watch.  </h2>
-                                            <p class="slider__content--desc style2 d-sm-2-none">There are many variations of passages of Lorem Ipsum availabled alteration in alley of type and scrambled it some.</p>
+                                            <h2 class="slider__content--maintitle h1">Cutting-Edge <br> Solar Batteries </h2>
+                                            <p class="slider__content--desc style2 d-sm-2-none">Experience energy independence with <br>our advanced solar battery systems that <br> store and deliver power when you need it.</p>
                                             <div class="slider__content--footer style2 d-flex align-items-center">
                                                 <a class="slider__content--btn primary__btn" href="shop.html">Shop Now</a>
                                                 <div class="bideo__play slider__play--bideo">
@@ -98,9 +96,8 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="slider__content style2">
-                                            <h2 class="slider__content--maintitle h1">Natural For Materials <br>
-                                                Time watch.  </h2>
-                                            <p class="slider__content--desc style2 d-sm-2-none">There are many variations of passages of Lorem Ipsum availabled alteration in alley of type and scrambled it some.</p>
+                                            <h2 class="slider__content--maintitle h1">Dedicated After-Sales <br> Support </h2>
+                                            <p class="slider__content--desc style2 d-sm-2-none">Count on us for ongoing assistance, maintenance, <br> and expert guidance to keep your solar products running at their best.</p>
                                             <div class="slider__content--footer style2 d-flex align-items-center">
                                                 <a class="slider__content--btn primary__btn" href="shop.html">Shop Now</a>
                                                 <div class="bideo__play slider__play--bideo">
