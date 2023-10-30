@@ -8,7 +8,7 @@
   <title>InterTrade Ltd. - E-Store</title>
   <meta name="description" content="Morden Simplistic, E-Store For Your Business">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="icon" type="image/png" href="https://intertradeltd.biz/assets/images/favicon.png">
 
   <!-- ======= All CSS Plugins here ======== -->
   <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">

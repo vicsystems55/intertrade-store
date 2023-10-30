@@ -10,7 +10,7 @@
                             </svg>
                         </h2>
                         <div class="footer__widget--inner">
-                            <a class="footer__logo" href="index.html"><img class="footer__logo--img display-block" src="assets/img/logo/nav-logo-white.webp" alt="footer-logo"></a>
+                            <a class="footer__logo" href="index"><img class="footer__logo--img display-block" src="assets/img/logo/nav-logo.webp" alt="footer-logo"></a>
                             <p class="footer__widget--desc">Simple, easy, smart and efficient way to sell online.</p>
                             <div class="footer__social">
                                 <ul class="social__shear d-flex">
@@ -67,10 +67,10 @@
                             </svg>
                         </h2>
                         <ul class="footer__widget--menu footer__widget--inner">
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">About Us</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about">About Us</a></li>
 
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact.html">Contact Us</a></li>
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact">Contact Us</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="privacy-policy">Privacy Policy</a></li>
 
                         </ul>
                     </div>
@@ -83,11 +83,11 @@
                             </svg>
                         </h2>
                         <ul class="footer__widget--menu footer__widget--inner">
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="my-account.html">My Account</a></li>
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="cart.html">Shopping Cart</a></li>
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login.html">Login</a></li>
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login.html">Register</a></li>
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="checkout.html">Checkout</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="my-account">My Account</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="cart">Shopping Cart</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login">Login</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login">Register</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="checkout">Checkout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -117,8 +117,8 @@
             </div>
         </div>
         <div class="footer__bottom d-flex justify-content-between align-items-center">
-            <p class="copyright__content  m-0">Copyright © {{\Carbon\Carbon::now()->year}} <a class="copyright__content--link" href="index.html">vicSystems Technologies Ltd</a> . All Rights Reserved.</p>
-            <p class="footer__bottom--desc"><a href="privacy-policy.html">Term & condition</a> , <a href="privacy-policy.html">Privacy Policy</a></p>
+            <p class="copyright__content  m-0">Copyright © {{\Carbon\Carbon::now()->year}} <a class="copyright__content--link" href="index">vicSystems Technologies Ltd</a> . All Rights Reserved.</p>
+            <p class="footer__bottom--desc"><a href="privacy-policy">Term & condition</a> , <a href="privacy-policy">Privacy Policy</a></p>
         </div>
     </div>
 </footer>

@@ -135,10 +135,8 @@
                                 </span>
                             </div>
                             <div class="featured__product--card__content">
-                                <h2 class="featured__product--card__title h3">Advanced Analytic</h2>
-                                <p class="featured__product--card__desc">Every team has a culture and set of ct
-                                    ations that have either
-                                    naturally evolved.</p>
+                                <h2 class="featured__product--card__title h3">Exceptional Service</h2>
+                                <p class="featured__product--card__desc">Our commitment to customer satisfaction includes top-tier after-sales support.</p>
                             </div>
                         </div>
                         <div class="featured__product--card">
@@ -148,10 +146,8 @@
                                 </span>
                             </div>
                             <div class="featured__product--card__content">
-                                <h2 class="featured__product--card__title h3">Advanced To Watch</h2>
-                                <p class="featured__product--card__desc">Every team has a culture and set of ct
-                                    ations that have either
-                                    naturally evolved.</p>
+                                <h2 class="featured__product--card__title h3">Warranty-Assured Inverters</h2>
+                                <p class="featured__product--card__desc">Experience the durability and reliability of our inverters, backed by solid warranties.</p>
                             </div>
                         </div>
                     </div>
@@ -170,7 +166,7 @@
                                 </span>
                             </div>
                             <div class="featured__product--card__content">
-                                <h2 class="featured__product--card__title h3"> Amet to consectet.</h2>
+                                <h2 class="featured__product--card__title h3">Long-Lasting Solar Batteries</h2>
                                 <p class="featured__product--card__desc">Every team has a culture and set of ct
                                     ations that have either
                                     naturally evolved.</p>
@@ -183,10 +179,8 @@
                                 </span>
                             </div>
                             <div class="featured__product--card__content">
-                                <h2 class="featured__product--card__title h3">Advanced To Watch</h2>
-                                <p class="featured__product--card__desc">Every team has a culture and set of ct
-                                    ations that have either
-                                    naturally evolved.</p>
+                                <h2 class="featured__product--card__title h3">Proven Expertise</h2>
+                                <p class="featured__product--card__desc">With years of experience, we implement modern tools to monitor your solar system's performance</p>
                             </div>
                         </div>
                     </div>
@@ -197,7 +191,7 @@
     <!-- End featured product section -->
 
     <!-- Start about section -->
-    <section class="about__section about__section--bg section--padding">
+    <section class="about__section about__section--bg section--padding d-none">
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 align-items-center">
                 <div class="col col-sm-order">
@@ -545,7 +539,7 @@
     <!-- End product section -->
 
     <!-- Start deals section -->
-    <section class="deals__section deals__section--bg section--padding">
+    <section class="deals__section deals__section--bg section--padding d-none">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-8">
@@ -879,7 +873,7 @@
     <!-- End contact section -->
 
     <!-- Start blog section -->
-    <section class="blog__section section--padding">
+    <section class="blog__section section--padding d-none">
         <div class="container">
             <div class="section__heading text-center mb-50">
                 <h2 class="section__heading--maintitle text__secondary mb-10">Our Largest Blog</h2>
@@ -975,7 +969,7 @@
     <!-- End blog section -->
 
     <!-- Start instagram section -->
-    <div class="instagram__section">
+    <div class="instagram__section d-none">
         <div class="container-fluid p-0">
             <div class="instagram__section--inner instagram__swiper--activation swiper">
                 <div class="swiper-wrapper">
