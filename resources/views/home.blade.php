@@ -831,7 +831,7 @@
     <!-- End testimonial section -->
 
     <!-- Start contact section -->
-    <section class="contact__section contact__section--bg section--padding" id="contactsection">
+    <section class="contact__section contact__section--bg section--padding d-none" id="contactsection">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7">
