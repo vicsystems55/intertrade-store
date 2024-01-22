@@ -30,7 +30,7 @@
             <div class="animation-preloader">
                 <div class="spinner"></div>
                 <div class="txt-loading">
-                    <span data-text-preloader="L" class="letters-loading">
+                    <span data-text-preloader="L" class="letters-loading ">
                         L
                     </span>
 
