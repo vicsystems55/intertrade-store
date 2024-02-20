@@ -15,34 +15,38 @@ class PageController extends Controller
     public function index(Request $request)
     {
 
-        $storeDetails = StoreSubDetail::first();
+        // return 123;
+
+        // $storeDetails = StoreSubDetail::first();
 
         // return $storeDetails;
 
         // return $request->url();
-        if ($request->page) {
+        // if ($request->page) {
 
-            $response = Http::get(config('app.url').'/api/v1/productsx?page='.$request->page);
+        //     $response = Http::get(config('app.url').'/api/v1/productsx?page='.$request->page);
 
-            // return json_decode($response);
+        //     // return json_decode($response);
 
-            $response = json_decode($response);
+        //     $response = json_decode($response);
 
-            // dd($response);
+        //     // dd($response);
 
-            return view('welcome', compact('response','storeDetails'));
-        }else{
-            $response = Http::get(config('app.url').'/api/v1/productsx');
+        //     return view('welcome', compact('response','storeDetails'));
+        // }else{
+        //     $response = Http::get(config('app.url').'/api/v1/productsx');
 
-            // return json_decode($response);
+        //     // return json_decode($response);
 
-            $response = json_decode($response);
+        //     $response = json_decode($response);
 
-            // dd($response);
+        //     // dd($response);
 
-            return view('welcome', compact('response', 'storeDetails'));
+        //     return view('welcome', compact('response', 'storeDetails'));
 
-        }
+        // }
+
+        return view('welcome');
 
     }
 
@@ -81,6 +85,13 @@ class PageController extends Controller
     {
 
         return view('checkout');
+    }
+
+
+    public function my_account()
+    {
+
+        return view('my_account');
     }
 
 

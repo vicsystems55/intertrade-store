@@ -21,7 +21,7 @@
         </div>
         <div class="single__widget widget__bg">
             <h2 class="widget__title position__relative h3">Categoriessss</h2>
-            <example-component></example-component>
+
             <ul class="widget__categories--menu">
                 <li class="widget__categories--menu__list">
                     <label class="widget__categories--menu__label d-flex align-items-center">
@@ -409,7 +409,7 @@
                 <div class="row row-cols-1">
                     <div class="col">
                         <div class="breadcrumb__content">
-                            <h1 class="breadcrumb__content--title mb-10">{{$storeDetails->store_name}}</h1>
+                            <h1 class="breadcrumb__content--title mb-10"></h1>
                             <ul class="breadcrumb__content--menu d-flex">
                                 <li class="breadcrumb__content--menu__items"><a href="index.html">Home</a></li>
                                 <li class="breadcrumb__content--menu__items"><span class="text__dark">Shop </span></li>
@@ -479,7 +479,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="product__showing--count">Showing {{$response->current_page}} - {{$response->to}} of {{$response->total}} results</p>
+                            <p class="product__showing--count">Showing  results</p>
                         </div>
                         <div class="shop__product--wrapper">
                             <div class="tab_content">
@@ -487,14 +487,13 @@
                                     <div class="product__section--inner product__grid--inner">
                                         <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-2 mb--n30">
 
-                                            @foreach ($response->data as $product)
 
                                             <div class="col custom-col-2 mb-30">
                                                 <article class="product__card">
                                                     <div class="product__card--thumbnail">
                                                         <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                                                            <img class="product__card--thumbnail__img product__primary--img display-block" style="width: 410px; height: 410px; object-fit:cover;"  src="{{$product->img_url}}" alt="product-img">
-                                                            <img class="product__card--thumbnail__img product__secondary--img display-block"  style="width: 410px; height: 410px; object-fit:cover;" src="{{$product->img_url}}"  alt="product-img">
+                                                            <img class="product__card--thumbnail__img product__primary--img display-block" style="width: 410px; height: 410px; object-fit:cover;"  src="" alt="product-img">
+                                                            <img class="product__card--thumbnail__img product__secondary--img display-block"  style="width: 410px; height: 410px; object-fit:cover;" src=""  alt="product-img">
                                                         </a>
                                                         <ul class="product__card--action d-flex align-items-center justify-content-center">
                                                             {{-- <li class="product__card--action__list">
@@ -525,17 +524,17 @@
 
                                                     <div class="product__card--content text-center">
                                                         <span class="product__card--meta__tag">General</span>
-                                                        <h3 class="product__card--title"><a href="product-details.html">{{$product->name}} </a></h3>
+                                                        <h3 class="product__card--title"><a href="product-details.html">title </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">NGN {{number_format($product->price)}}</span>
+                                                            <span class="current__price">NGN price</span>
                                                             <span class="price__divided"></span>
-                                                            <span class="old__price"> NGN {{number_format($product->price * 1.3)}}.</span>
+                                                            <span class="old__price"> NGN discount.</span>
                                                         </div>
-                                                    <addcart-component  productid="{{$product->id}}"></addcart-component>
+
                                                     </div>
                                                 </article>
                                             </div>
-                                            @endforeach
+
 
 
                                             {{-- <div class="col custom-col-2 mb-30">
@@ -939,61 +938,7 @@
                             </div>
                             <div class="pagination__area bg__gray--color">
                                 <nav class="pagination">
-                                    <ul class="pagination__wrapper d-flex align-items-center justify-content-center">
-                                        @foreach ($response->links as $link)
 
-
-
-                                        @if (!$link->active )
-
-                                            @if ($loop->first)
-
-                                            <li class="pagination__list">
-                                                <a href="{{str_replace(config('app.front_end_url').'/api/v1/productsx','',$link->url)}}" class="pagination__item--arrow  link ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg"  width="22.51" height="20.443" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M244 400L100 256l144-144M120 256h292"/></svg>
-                                                    <span class="visually-hidden">pagination arrow</span>
-                                                </a>
-                                            <li>
-
-                                            @elseif($loop->last)
-
-                                            <li class="pagination__list">
-                                                <a href="{{str_replace(config('app.front_end_url').'/api/v1/productsx','',$link->url)}}" class="pagination__item--arrow  link ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22.51" height="20.443" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-                                                    <span class="visually-hidden">pagination arrow</span>
-                                                </a>
-                                            <li>
-
-                                            @else
-
-
-                                        <li class="pagination__list"><a href="{{str_replace(config('app.front_end_url').'/api/v1/productsx','',$link->url)}}" class="pagination__item link">{{$link->label}}</a></li>
-
-                                            @endif
-
-
-                                        @else
-
-                                        <li class="pagination__list">
-                                            <span class="pagination__item pagination__item--current">{{$link->label}}</span>
-                                        </li>
-                                        @endif
-
-                                        {{-- @if ($loop->last)
-
-                                        <li class="pagination__list">
-                                            <a href="{{$link->url}}" class="pagination__item--arrow  link ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22.51" height="20.443" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-                                                <span class="visually-hidden">pagination arrow</span>
-                                            </a>
-                                        <li>
-                                        @endif --}}
-
-
-                                        @endforeach
-
-
-                                    </ul>
                                 </nav>
                             </div>
                         </div>

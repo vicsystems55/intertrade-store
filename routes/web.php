@@ -35,7 +35,7 @@ Route::get('/payment-successful', function () {
 });
 
 
-Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/dashboard', [PageController::class, 'my_account']);
 
 Route::get('/products', [DashboardController::class, 'products']);
 
